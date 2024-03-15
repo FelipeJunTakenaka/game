@@ -1,0 +1,365 @@
+/**
+ Folha de estilo do site roboticapratica.com
+ @author Felipe Jun
+ @link 
+*/
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+
+/* variáveis globais */
+:root {
+    --cinzaLayout: #3c3c3c;
+    --cinzaTexto: #434343;
+    --brancoLayout: #ffffff;
+    --backgroundCard: #f1f3f4;
+    --bordaLayout: #a1a1a1;
+    --vermelhoLayout: #c00000;
+}
+
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* LAYOUT >>>>>>>>>>>>>>>>>>>>>>>>>> */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+}
+
+.Container {
+    margin: 0 auto;
+    padding: 50px 15px 50px 15px;
+}
+
+.Flex,
+.FlexMenu {
+    display: Flex;
+    justify-content: space-between;
+}
+
+.Flex {
+    flex-direction: column;
+}
+
+/* cartão */
+.Card {
+    margin-top: 30px;
+    width: 338px;
+    height: 520px;
+    background-color: var(--backgroundCard);
+    border: 1px solid var(--bordaLayout);
+    border-radius: 25px;
+    text-align: center;
+}
+
+.Card img {
+    border-radius: 25px 25px 0px 0px;
+}
+
+.Card h3 {
+    margin: 15px 30px 0px 30px;
+}
+
+.Card p {
+    padding: 10px 15px 50px 15px;
+    text-align: left;
+    color: var(--cinzaTexto);
+}
+
+.Button {
+    text-decoration: none;
+    background-color: var(--vermelhoLayout);
+    color: var(--brancoLayout);
+    padding: 10px 100px;
+    border-radius: 25px;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.Button2 {
+    text-decoration: none;
+    background-color: var(--brancoLayout);
+    color: var(--vermelhoLayout);
+    padding: 10px 50px;
+    border-radius: 25px;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+/* Topo */
+#topo {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+/* Smartphone portrait >>>>>>>>>>>>>>>> */
+
+/* Cabeçalho */
+header {
+    height: 50px;
+}
+
+#logo img {
+    width: 150px;
+    height: 80px;
+    margin: 10px 0px 0px 10px;
+}
+
+#check {
+    display: none;
+}
+
+label {
+    font-size: 3em;    
+    position: fixed;
+    top: 25px;
+    right: 3px;
+    color: rgba(60,60,60, 0.6);
+}
+
+nav ul {
+    list-style: none;
+    background-color: rgba(172, 10, 10, 0.95);
+    height: 100vh;
+    position: fixed;
+    top: 80px;
+    right: -70%; /*estratégia para recolher o menu*/
+    width: 70%;
+    transition: all 0.5s;
+}
+
+/* ativar o checkbox refernte a ul*/
+#check:checked~ul {
+    right: 0;
+}
+
+nav ul li {
+    border-bottom: 0.5px solid var(--backgroundCard);
+    text-align: right;
+    padding: 15px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--brancoLayout)
+}
+
+/*Banner */
+main{
+    background: url(img/banner.jpg);
+    height:50vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+main h1,h2{
+    color: var(--brancoLayout);
+}
+
+main h1{
+    font-family:"Orbitron", sans-serif;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+main h2{
+    display: none;
+}
+
+/* Rodapé */
+footer {
+    background-color: var(--cinzaLayout);
+    color: var(--brancoLayout);
+    text-align: center;
+}
+
+#social {
+    margin-bottom: 25px;
+}
+
+/* Smartphone landscape >>>>>>>>>>>>>>> */
+@media (min-width: 576px) {
+
+    /* Layout */
+    .Container {
+        max-width: 610px;
+    }
+
+    /* Cabeçalho */
+    header {
+        max-width: 580px;
+        margin: 0 auto;
+    }
+
+    .Flex {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /*Banner */
+    main{
+        height: 60vh;
+    }
+
+    main h1{
+        font-size: 1.7em;
+    }
+
+
+    #social {
+        margin: 0;
+    }
+}
+
+/* Tablet portrait >>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 768px) {
+
+    /* Layout */
+    .Container {
+        max-width: 720px;
+    }
+
+    /* Cabeçalho */
+    header {
+        max-width: 720px;
+        height: 100px;
+    }
+
+    label {
+        font-size: 4em;       
+        top: 25px;
+        right: 5px;      
+    }
+
+    #logo img {
+        width: 240px;
+        height: 81.2px;
+        margin: 10px 0px 0px 0px;
+    }
+
+    nav ul {
+        top: 100px;
+        right: -50%;
+        width: 50%;
+    }
+
+    /*Banner */
+    main h1{
+        font-size: 2em;
+        font-weight: 700;
+        margin-bottom:25px;
+    }
+
+    main h2{
+        display: block;
+        font-size: 1Sem;
+        font-size: 1em;
+        margin-bottom: 50px;
+
+    }
+    main a{
+        margin-top: 50px;
+    }
+}
+
+/* Tablet landscape >>>>>>>>>>>>>>>>>>> */
+@media (min-width: 992px) {
+
+    /* Layout */
+    .Container {
+        max-width: 960px;
+    }
+
+    /* Cabeçalho */
+    header {
+        max-width: 992px;
+    }
+}
+
+/* PCs ou notebooks HD >>>>>>>>>>>>>>>> */
+@media (min-width: 1200px) {
+
+    /* Layout */
+    .Container {
+        max-width: 1140px;
+    }
+
+    /* Cabeçalho */
+    header {
+        max-width: 1600px;
+        height: 125px;
+    }
+
+    #logo img {
+        width: 424px;
+        height: 97.4px;
+    }
+
+    label {
+        display: none;
+    }
+
+    nav ul {
+        width: 100%;
+        position: static;
+        height: auto;
+        background-color: var(--brancoLayout);
+        margin-top: 50px;
+    }
+
+    nav ul li {
+        border: 0;
+        float: left;
+    }
+
+    nav ul li a {
+        color: var(--cinzaLayout);
+    }
+
+    nav ul li a:hover {
+        color: var(--vermelhoLayout)
+    }
+
+    /*Banner */
+
+    main{
+        min-height: 75vh;
+    }
+
+    main h1{
+        font-size: 3em;
+    }
+    main h2{
+        font-size: 1.5em;
+        text-shadow: #000000 0.01em 0.01em 0.01em;
+    }
+
+}
+
+/* PCs, notebooks ou Tv Full HD + >>>> */
+@media (min-width: 1400px) {
+
+    /* Cabeçalho */
+    header {
+        height: 150px;
+    }
+
+    #logo img {
+        width: 400px;
+        height: 140px;
+    }
+}
