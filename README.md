@@ -6,7 +6,7 @@
 
 # Easter eggs de games modernos
 Este repositorio hospeda um site sobre Easter eggs
-## autor
+## Autor
 Felipe Jun
 ## Acessar Qrcode
 ![](https://github.com/FelipeJunTakenaka/game/blob/main/qrcode_chrome%20(1).png)
