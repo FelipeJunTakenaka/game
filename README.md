@@ -3,6 +3,7 @@
 ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Ffelipejuntakenaka.github.io%2Fgame%2F)
 
 
+
 # Easter eggs de games modernos
 Este repositorio hospeda um site sobre Easter eggs
 ## autor
