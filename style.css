@@ -96,6 +96,25 @@ body {
     font-size: 1.2em;
     font-weight: 700;
 }
+/*banner de páginas*/
+.bannerpaginas{
+    height: 200px;
+    background: url(img/Banner.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    text-align: center;
+   
+    }
+    .bannerpaginas p{
+        color: var(--cinzaTexto);
+       
+    }
+    #imgsobre{
+        border-radius: 50%;
+       
+    }
+
 
 /* Topo */
 #topo {
@@ -158,7 +177,7 @@ nav ul li a {
 
 /*Banner */
 main{
-    background: url(img/game-console-6603120_1920.jpg);
+    background: url(img/Banner.jpg);
     height:50vh;
     background-size: cover;
     background-position: center;
@@ -188,6 +207,18 @@ footer {
 
 #social {
     margin-bottom: 25px;
+}
+
+/* Imagem Sobre */
+#imgsobre img {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    margin-bottom: 20px;
+}
+ 
+#imgsobre {
+    text-align: center;
 }
 
 /* Smartphone landscape >>>>>>>>>>>>>>> */
