@@ -48,7 +48,7 @@ body {
 }
 
 .Flex {
-    
+
     flex-direction: column;
 }
 
@@ -96,24 +96,27 @@ body {
     font-size: 1.2em;
     font-weight: 700;
 }
+
 /*banner de páginas*/
-.bannerpaginas{
+.bannerpaginas {
     height: 200px;
     background: url(img/Banner.jpg);
     background-size: cover;
     background-position: center;
     justify-content: center;
     text-align: center;
-   
-    }
-    .bannerpaginas p{
-        color: var(--cinzaTexto);
-       
-    }
-    #imgsobre{
-        border-radius: 50%;
-       
-    }
+
+}
+
+.bannerpaginas p {
+    color: var(--cinzaTexto);
+
+}
+
+#imgsobre {
+    border-radius: 50%;
+
+}
 
 
 /* Topo */
@@ -140,11 +143,11 @@ header {
 }
 
 label {
-    font-size: 3em;    
+    font-size: 3em;
     position: fixed;
     top: 25px;
     right: 3px;
-    color: rgba(60,60,60, 0.6);
+    color: rgba(60, 60, 60, 0.6);
 }
 
 nav ul {
@@ -153,7 +156,8 @@ nav ul {
     height: 100vh;
     position: fixed;
     top: 80px;
-    right: -70%; /*estratégia para recolher o menu*/
+    right: -70%;
+    /*estratégia para recolher o menu*/
     width: 70%;
     transition: all 0.5s;
 }
@@ -176,25 +180,26 @@ nav ul li a {
 }
 
 /*Banner */
-main{
+main {
     background: url(img/game-console-6603120_1920.jpg);
-    height:50vh;
+    height: 50vh;
     background-size: cover;
     background-position: center;
     text-align: center;
 }
 
-main h1,h2{
+main h1,
+h2 {
     color: var(--brancoLayout);
 }
 
-main h1{
-    font-family:"Orbitron", sans-serif;
+main h1 {
+    font-family: "Orbitron", sans-serif;
     font-weight: 900;
     margin-bottom: 100px;
 }
 
-main h2{
+main h2 {
     display: none;
 }
 
@@ -216,9 +221,42 @@ footer {
     border-radius: 150px;
     margin-bottom: 20px;
 }
- 
+
 #imgsobre {
     text-align: center;
+}
+
+/* Introdução */
+#intro {
+    background: url(img/cyber.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#textoIntro h1 {
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.TopicosIntro {
+    margin-top: 10px;
+    color: #000000;
+}
+
+.TopicosIntro img {
+    margin-right: 20px;
+}
+
+/* Introdução */
+#destaqueIntro {
+    display: inline;
+}
+
+#destaqueIntro img {
+    margin-right: 50px;
+    border-radius: 50%;
 }
 
 /* Smartphone landscape >>>>>>>>>>>>>>> */
@@ -242,11 +280,11 @@ footer {
     }
 
     /*Banner */
-    main{
+    main {
         height: 60vh;
     }
 
-    main h1{
+    main h1 {
         font-size: 1.7em;
     }
 
@@ -271,9 +309,9 @@ footer {
     }
 
     label {
-        font-size: 4em;       
+        font-size: 4em;
         top: 25px;
-        right: 5px;      
+        right: 5px;
     }
 
     #logo img {
@@ -289,20 +327,21 @@ footer {
     }
 
     /*Banner */
-    main h1{
+    main h1 {
         font-size: 2em;
         font-weight: 700;
-        margin-bottom:25px;
+        margin-bottom: 25px;
     }
 
-    main h2{
+    main h2 {
         display: block;
         font-size: 1Sem;
         font-size: 1em;
         margin-bottom: 50px;
 
     }
-    main a{
+
+    main a {
         margin-top: 50px;
     }
 }
@@ -367,14 +406,15 @@ footer {
 
     /*Banner */
 
-    main{
+    main {
         min-height: 75vh;
     }
 
-    main h1{
+    main h1 {
         font-size: 3em;
     }
-    main h2{
+
+    main h2 {
         font-size: 1.5em;
         text-shadow: #000000 0.01em 0.01em 0.01em;
     }
