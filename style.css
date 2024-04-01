@@ -4,6 +4,11 @@
  @link 
 */
 /* google fonts */
+
+body{
+    background-color:cyan
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
@@ -51,10 +56,16 @@ body {
 
     flex-direction: column;
 }
+.FlexCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
 
 /* cartão */
 .Card {
-    margin-top: 30px;
+    margin-top: 20px;
     width: 338px;
     height: 520px;
     background-color: var(--backgroundCard);
@@ -237,7 +248,7 @@ footer {
     font-weight: 400;
     font-size: 1.5em;
     margin-bottom: 10px;
-    color: #000000;
+    color:aqua;
 }
 
 .TopicosIntro {
