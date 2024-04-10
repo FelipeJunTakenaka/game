@@ -22,6 +22,7 @@ body{
     --backgroundCard: #f1f3f4;
     --bordaLayout: #a1a1a1;
     --vermelhoLayout: #c00000;
+    --preto:#000000;
 }
 
 /* CSS RESET */
@@ -60,6 +61,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    color: #c00000;
 
 }
 
@@ -68,7 +70,7 @@ body {
     margin-top: 20px;
     width: 338px;
     height: 520px;
-    background-color: var(--backgroundCard);
+    background-color: var(--preto);
     border: 1px solid var(--bordaLayout);
     border-radius: 25px;
     text-align: center;
@@ -441,7 +443,8 @@ footer {
     }
 
     #logo img {
-        width: 300px;
-        height: 140px;
+        width: 280px;
+        height: 125px;
+        margin-left: 20px;
     }
 }
