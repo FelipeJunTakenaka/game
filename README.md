@@ -9,4 +9,5 @@ Este repositorio hospeda um site sobre Easter eggs
 ## Autor
 Felipe Jun
 ## Acessar Qrcode
-![](https://github.com/FelipeJunTakenaka/game/blob/main/qrcode_chrome%20(1).png)
+![]![image](https://github.com/FelipeJunTakenaka/game/assets/129780921/2465d56c-e2c6-4791-a40f-07dabf7e080d)
+
