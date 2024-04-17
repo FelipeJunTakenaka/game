@@ -56,6 +56,16 @@ body {
 .container h1{
     padding: 40px;
 }
+.containerr{
+    text-align: center;
+    padding: 20px;
+}
+.containerr h1{
+    padding: 20px;
+}
+.containerr p{
+    padding: 30px;
+}
 
 
 .Flex,
