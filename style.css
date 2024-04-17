@@ -6,7 +6,7 @@
 /* google fonts */
 
 body{
-    background-color:cyan
+    
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&display=swap');
@@ -46,6 +46,17 @@ body {
     margin: 0 auto;
     padding: 50px 15px 50px 15px;
 }
+.container{
+    text-align: center;
+    padding: 50px;
+}
+.container p{
+    padding: 40px;
+}
+.container h1{
+    padding: 40px;
+}
+
 
 .Flex,
 .FlexMenu {
@@ -71,7 +82,7 @@ body {
     width: 338px;
     height: 520px;
     background-color: var(--preto);
-    border: 1px solid var(--bordaLayout);
+    
     border-radius: 25px;
     text-align: center;
 }
@@ -87,7 +98,7 @@ body {
 .Card p {
     padding: 10px 15px 50px 15px;
     text-align: left;
-    color: var(--cinzaTexto);
+    color: var(--brancoLayout);
 }
 
 .Button {
@@ -194,8 +205,8 @@ nav ul li a {
 
 /*Banner */
 main {
-    background: url(img/game-console-6603120_1920.jpg);
-    height: 50vh;
+    background: url(img/manodasetinha.jpeg);
+    height: 40vh;
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -241,7 +252,7 @@ footer {
 
 /* Introdução */
 #intro {
-    background: url(img/cyber.jpg);
+    background: url();
     background-size: cover;
     background-position: center;
 }
@@ -348,7 +359,7 @@ footer {
 
     main h2 {
         display: block;
-        font-size: 1Sem;
+        font-size: 1em;
         font-size: 1em;
         margin-bottom: 50px;
 
